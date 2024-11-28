@@ -105,7 +105,7 @@ public class Database implements AutoCloseable {
 
   public static void main(String[] args) {
     if (args.length < 2) {
-      System.err.println("usage: antdb <path> <command>");
+      System.err.println("Incorrect command");
       System.exit(1);
     }
     String path = args[0], command = args[1];

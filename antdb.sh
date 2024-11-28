@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
-mvn -B --quiet package -Ddir=/tmp/codecrafters-sqlite-target
-exec java -jar /tmp/codecrafters-sqlite-target/java_sqlite.jar "$@"
+#mvn -B --quiet package -Ddir=/tmp/codecrafters-sqlite-target
+#exec java -jar /tmp/codecrafters-sqlite-target/java_sqlite.jar "$@"
+exec java -jar /app/java_sqlite.jar "$@"
